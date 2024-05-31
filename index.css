@@ -328,7 +328,8 @@ header {
 }
 
 .about-me__img {
-  box-shadow: var(--bs);
+  width: 210px;
+  border-radius: 20px;
 }
 
 @media (min-width: 600px) {
