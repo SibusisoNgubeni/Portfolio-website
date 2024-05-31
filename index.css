@@ -362,6 +362,11 @@ header {
     position: relative;
     z-index: 2;
   }
+  .social-links {
+    margin-left: 5px;
+    margin-right: px;
+    padding: 0.5em;
+  }
 }
 
 .my-work {
