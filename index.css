@@ -42,6 +42,20 @@ body {
   font-size: var(--fs-body);
   line-height: 1.6;
 }
+.loading{
+  width: 5rem;
+    height: 5rem;
+    border: 0.6rem solid #e1a3a3;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    margin: 200px auto;
+    animation: loader 2500ms linear infinite;
+}
+@keyframes loader {
+  to {
+      transform: rotate(360deg);
+  }
+}
 
 section {
   padding: 5em 2em;
@@ -368,6 +382,7 @@ header {
 
 .footer {
   background: #111;
+  border-radius: 5px;
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
