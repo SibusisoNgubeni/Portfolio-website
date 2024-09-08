@@ -375,33 +375,24 @@ header {
   text-align: center;
 }
 
-.insta-btn {
-  background: rgb(227, 92, 68);
-  border-radius: 20px;
-}
 
-.myApp-btn {
-  background: rgb(227, 92, 68);
-  border-radius: 20px;
-}
-.App-btn {
-  background: rgb(227, 92, 68);
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.btn {
-  background: rgb(236, 107, 85);
+.project-btn {
+  margin: 10px;
+  background: rgb(187, 94, 78);
   border-radius: 20px;
   padding: 10px;
+  width: 100px;
+  height: 25px;
 }
-.btn:hover {
+
+
+.project-btn:hover {
   background-color: #f3e95d;
   transition: 1s;
 }
 
-.insta-btn:hover,
-.myApp-btn:focus {
+.project-btn:hover,
+.project-btn:focus {
   transform: scale(1.2);
   opacity: 0.5;
 }
